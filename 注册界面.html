@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="Css/注册界面 - Css.css">
+<script src="Javascript/注册界面 - Javascript.js">
+</script>
+</head>
+<body> 
+<div class="bgimg">
+ <nav id="top">
+  <ul >
+   <div class="top">
+    <li id="liA"  class="li">首页</li>
+    <li id="liB"  class="li">动漫</li>
+    <li id="liC"  class="li">漫画</li>
+    <li id="liD"  class="li">游戏</li>
+    <li id="liE"  class="li">小说</li>
+    <li id="liF"  class="li">音乐</li>
+    <li id="liG"  class="li">注册</li>
+    <i id="i"></i>
+    <li id="liH"  class="li">登陆</li>
+   </div>
+  </ul>
+ </nav> 
+
+<div class="divHead"> 
+      <hr class="hrA" />       &nbsp;注册&nbsp;
+      <hr class="hrA" />
+</div>
+<!--这个头幅应该还有更好的方法-->
+
+<div class="divText">
+<input class="textA" type="text" id="phone" name="PhoneNumber" value="昵称（例：舔舔舔舔）"/>
+<p class="textCheck" id="textCheck"><p>
+</div>
+<!--账号的中文验证还没做完-->
+
+<div class="divPasswordA">
+<input class="passA" type="text" id="passwordA" name="PasswordA" value="密码（6-16个字符组成，区分大小写）"  >
+</div>
+<span class="passCheckA" id="passCheckA"></span>
+
+<div class="divPasswordB">
+<input class="passA" type="text" id="passwordB" name="PasswordB" value="确认密码" onFocus="clearB(this)" onBlur="resetC(this)">
+</div>
+<span class="passCheckB" id="passCheckB"></span>
+
+<div class="divRegisterA">
+<input class="registerA" type="button" id="registerbuttonA" name="register"   value="注册">
+<input class="loginA" type="button" id="loginbuttonA" name="login"   value="登陆">
+</div>
+
+</div> 
+<footer class="footerA">
+  <span class="spanA" >
+    <hr class="hrB" />
+     下面看起来很空，所以悄悄做了个页脚
+    <hr class="hrB" />
+     虽然和作业内容没什么关系
+  </span>
+</footer>
+<!--注册的符合条件取消 disabled状态没做完-->
+
+<!--安全系数没做  获取验证码没做  页面布局还没做完-->
+</body>
+</html>

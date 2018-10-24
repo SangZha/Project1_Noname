@@ -1,0 +1,198 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+    overflow-x:hidden;
+}
+html,body{
+	height:100%;
+	width:100%;
+	background-color:#fff;
+}
+
+.top{
+	height:100%;
+	background-color:#333;
+	opacity:1;
+}
+#ulA{
+	list-style-type: none;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+	float:left;
+}
+.lif{ 
+ 	text-align:center;
+    display:inline-block;
+    margin:6px;
+    padding:5px;
+    width:70px;
+    height:40x;
+    font-family:"微软雅黑", "幼圆", "新宋体", "黑体", "方正黄草简体";
+    color:#F5F5F5;
+}
+#liA{
+   margin-left:350px;
+}
+#liF{
+	margin-left:450px;
+	padding:0px;
+	width:40px;
+}
+#liG{
+    margin-left:10px;
+	padding:0px;
+	width:40px;	
+}
+.lif:hover{
+	color:#333;
+	cursor:pointer;
+	border-radius:2px;
+	background-color:#F5F5F5;
+}
+#i{
+	border-left:1px solid #F5F5F5;
+}
+.bgimg1{
+	background-image:url(../image/animebg.jpg);
+	background-color:#F5F5F5;
+    width:1920px;
+	height:880px;
+}
+.gifbg{
+    background-color:e4e4e4;
+    width:800px;
+    height:360px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+	overflow:hidden;
+}
+.thunderimg{
+    background-image:url(../image/animetop.gif);
+    width:440px;
+	height:282px;
+	text-align:center;
+	margin:30px auto 30px auto;
+	position:relative;
+	transition: .5s;
+}
+#star1,#star2,#star3{
+	width:35px;
+    height:35px;	 
+    background-image:url(../image/animestar1.png)
+}
+#star4,#star5{
+	width:35px;
+    height:35px;	 
+    background-image:url(../image/animestar2.png)
+}
+#star1{
+	top:-300px;
+	left:70px;
+	position:relative;
+	transition: .5s;
+}
+#star2{
+	top:-220px;
+	left:20px;
+	position:relative;
+	transition: .5s;
+}
+#star3{
+	top:-150px;
+	left:80px;
+	position:relative;
+	transition: .5s;
+}
+#star4{
+	top:-400px;
+	left:700px;
+	position:relative;
+	transition: .5s;
+}
+#star5{
+	top:-250px;
+	left:720px;
+	position:relative;
+	transition: .5s;
+}
+.bghr{
+	background-image:url(../image/animehr.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 100%;
+	height: 13px;
+    border: none;   
+    background-color:#e4e4e4;
+}
+.bgimg2{
+    background-color:#fff;
+	margin-right:auto;
+	margin-left:auto;
+	width:1280px;
+	height:720px;
+	border:3px solid #000;
+	border-radius:4px;
+	position:relative;
+	top:-300px;
+	overflow:hidden;
+	z-index:10;
+}
+#ulB{
+	float:left;
+    margin:0;
+    padding:0;
+    transition:0.5s;
+	list-style-type:none;
+	width:500%;
+}
+.lis{
+	float:left;
+    margin:0;
+    padding:0;
+    transition:0.5s
+}
+.scrolltitle{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(transparent,rgba(0,0,0,0.1) 20%,rgba(0,0,0,0.2) 35%,rgba(0,0,0,0.5) 65%,rgba(0,0,0,0.66))
+}
+.title{
+    position:absolute;
+	width:50%;
+	height:60px;
+	left:40px;
+	line-height:60px;
+	color:#fff;
+	font-size:20px;
+	font-family:"微软雅黑", "幼圆", "新宋体", "黑体", "方正黄草简体";
+	letter-spacing:1.5px;
+}
+#ulC{
+	position: absolute;
+    right: 30px;
+    bottom: 20px;
+    overflow: hidden;
+}
+#ulC>li{
+	float:left;
+	list-style-type:none;
+	width: 18px;
+    height: 18px;
+    background: #FFF;
+    border:3px solid #FFF;
+	border-radius: 50px;
+	margin:0 8px 0 8px;
+}
+#ulC>li:hover{
+	background:#3CF;
+	cursor:pointer;
+	transition:.2s;
+	border:3px solid #FFF;
+}

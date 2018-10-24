@@ -1,0 +1,57 @@
+﻿html,body{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#effdf0;
+	height:100%;
+}
+.fckall{
+    height:100%;
+}
+.fckback{
+    position:relative;
+	float:right;
+	top:10px;
+	right:20px;
+	font-size:20px;
+	font-family:"微软雅黑", "幼圆", "新宋体", "黑体", "方正黄草简体";
+}
+.fckimg{
+    height:300px;
+    width:300px;
+	position:absolute;
+	top:300px;
+	left:200px;
+}
+.fckimg>img{
+	height:100%;
+}
+.fcktitle{
+    position:absolute;
+	left:500px;
+	top:100px;
+	font-family:"微软雅黑", "幼圆", "新宋体", "黑体", "方正黄草简体";
+	color:black;
+}
+.fcktitle p:first-child{
+    font-size:60px;
+	letter-spacing:5px;
+	font-weight:bold;
+}
+.fcktitle p:nth-child(2){
+    position:relative;
+	font-size:40px;
+	left:100px;
+}
+.fcktitle p:nth-child(3){
+    position:relative;
+	font-size:40px;
+	left:200px;
+}
+.fcktitle p:nth-child(4){
+    position:relative;
+	font-size:30px;
+	left:400px;
+	top:50px;
+}
+
